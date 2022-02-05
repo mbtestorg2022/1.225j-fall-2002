@@ -17,14 +17,75 @@ Instructions
 3.  Please write down your name and an alias, which we may need in emailing you your grades.
 4.  Please write down your answers in the reserved space. Please provide concise answers, and do not be surprised if answers are not more than one to three sentences long.
 
-| QUESTIONS | POINTS |
-| --- | --- |
-| Question 1 | /25 |
-| Question 2 | /15 |
-| Question 3 | /20 |
-| Question 4 | /25 |
-| Question 5 | /15 |
-| Total | /100 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+QUESTIONS
+{{< thclose >}}
+{{< thopen >}}
+POINTS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Question 1
+{{< tdclose >}}
+{{< tdopen >}}
+/25
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Question 2
+{{< tdclose >}}
+{{< tdopen >}}
+/15
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Question 3
+{{< tdclose >}}
+{{< tdopen >}}
+/20
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Question 4
+{{< tdclose >}}
+{{< tdopen >}}
+/25
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Question 5
+{{< tdclose >}}
+{{< tdopen >}}
+/15
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Total
+{{< tdclose >}}
+{{< tdopen >}}
+/100
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Question 1 (25 points): Capacity Models of Runways and Highways
 ---------------------------------------------------------------
@@ -35,7 +96,7 @@ Would the two proposals lead to the same improved runway capacity? If not which 
 
 1.2 (6 points) Consider a queuing system with one server and infinite capacity. Customers arrive with exponentially distributed inter-arrival times at an average rate of customers per hour. The average service rate is customers per hour. The distribution of service time is not known. Denote by W1 and W2 the respective waiting times in the queuing system, if the service time were to follow exponential and deterministic distributions. Using an intuitive argument, and without computing W1 and W2, compare the waiting time in the queuing system to W1 and W2.
 
-1.3. (6 points) Three variables describe traffic flow on a road segment: the density k (vehicles per kilometer), the speed u (kilometers per hour) and the flow rate q (vehicles per hour). These three variables are interrelated through the following two relations: a generic relation q=uk and a link-specific function relating u to k. Denote by kj is the jam density of a one lane highway. On a three lane highway, the u vs. k relation is given by: If k<=k\*, u= 100, and if k>=k\*, u= 20 ((3kj/k)-1). The maximum flow per three lanes is 5400 vehicles per hour. Please draw the fundamental diagram of this three-lane highway.
+1.3. (6 points) Three variables describe traffic flow on a road segment: the density k (vehicles per kilometer), the speed u (kilometers per hour) and the flow rate q (vehicles per hour). These three variables are interrelated through the following two relations: a generic relation q=uk and a link-specific function relating u to k. Denote by kj is the jam density of a one lane highway. On a three lane highway, the u vs. k relation is given by: If k\<=k\*, u= 100, and if k>=k\*, u= 20 ((3kj/k)-1). The maximum flow per three lanes is 5400 vehicles per hour. Please draw the fundamental diagram of this three-lane highway.
 
 1.4 (6 points) Consider a stretch of a highway with a two-lane portion, followed by a three-lane portion. The point of juncture of these portions is called an expansion. The maximum flow that can pass through the expansion is 3600 vehicles per hour. Assume that the model described in question 1.3 is an accurate description of highway flows, densities and speeds. We are interested in the value of the density k over the three-lane highway, immediately after the juncture point. Show that the value of k cannot be in an interval (k1, k2), where k1 and k2 are two particular density values \[determine k1 or k2, or locate them on the fundamental diagram\].
 
@@ -90,13 +151,13 @@ vehicles per hour. Denote by ρ the ratio ![](/courses/civil-and-environmental
 
 4.1 (2 points) Show that the service rate is in the interval \[m, km\] for all values of n.
 
-4.2 (2 points) Assume that l < m. The minimum average service rate is then greater than the average arrival rate. Intuitively, explain why there is a non-zero probability that there will be customers who would have to wait after they arrive before they are admitted for service.
+4.2 (2 points) Assume that l \< m. The minimum average service rate is then greater than the average arrival rate. Intuitively, explain why there is a non-zero probability that there will be customers who would have to wait after they arrive before they are admitted for service.
 
 4.3 (7 points) Draw the state-transition diagram of this queuing system.
 
 4.4 (7 points) Please write down, but do not solve, the set of equations that you would use to solve for W, Wq , Lq, and L (We just want to know the equations that you would use and the order in which you will solve them).
 
-4.5 (2 points) Is the condition l < m (or r<1) sufficient in order to have the steady-state condition? Please give a one to two sentences justification of your answer.
+4.5 (2 points) Is the condition l \< m (or r\<1) sufficient in order to have the steady-state condition? Please give a one to two sentences justification of your answer.
 
 4.5 (2 points) Consider the case when k>1. Intuitively could the queuing system be in steady state if r is slightly greater than 1?
 

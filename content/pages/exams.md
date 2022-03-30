@@ -105,7 +105,7 @@ Question 2 (15 points)
 
 In this question consider the following non-congested network. The number near each link denotes the link travel time. Assume that the origin-destination demands from nodes 2, 3, 4 and 5, to node 1, are respectively 1, 2, 2, and 5.
 
-![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image007.jpg)
+{{< resource "ab5d61f6-7a62-0af5-4800-ff3a2d7c9c4c" >}}
 
 2.1 (8 points) Using Dijkstra's shortest path algorithm, solve for the shortest paths from all other nodes to node 2. Please show the details of your calculations on the above Figure depicting the network. Also, please show the obtained shortest path tree in the space below.
 
@@ -116,15 +116,15 @@ Question 3 (User Optimal vs. System Optimal) (20 points)
 
 Assume you are assigned to perform static traffic assignments for networks in which link travel times are modeled using Davidson’s volume delay function. The travel time of a link is then given by a function of the form:
 
-![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image009.jpg),
+{{< resource "12989031-1bb5-b1d9-d40f-6286e8625362" >}},
 
-where x is the flow rate on the link, c is the link capacity, t(0) is the free flow travel time, and ![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image011.jpg) is a link parameter (![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image011.jpg) is a real non-negative (can be equal to zero) number).
+where x is the flow rate on the link, c is the link capacity, t(0) is the free flow travel time, and {{< resource "45832667-7104-9128-7530-a9bab4063eba" >}} is a link parameter ({{< resource "45832667-7104-9128-7530-a9bab4063eba" >}} is a real non-negative (can be equal to zero) number).
 
 3.1 (4 points) Consider a simple network with two nodes linked by two parallel arcs. The travel time functions of links 1 and 2 are respectively given by:
 
-![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image014.jpg), and
+{{< resource "08127aab-dab2-35f0-87c0-74f901e68df4" >}}, and
 
-![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image016.jpg).
+{{< resource "55a931e8-4da3-bc67-eb41-45ac7b46793d" >}}.
 
 We are interested in assigning a travel demand q between these nodes according to the User-Optimal principle. Depending on the value of q, one or two links will be used. Please provide the intervals of demand values q corresponding to the following two cases: one link is used, and both links are used. Please justify your answer.
 
@@ -134,7 +134,7 @@ We are interested in assigning a travel demand q between these nodes according t
 
 What modified link travel time functions, corresponding to the real link performance functions
 
-![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image017.jpg),
+{{< resource "60e198ec-eff2-a0e1-1659-f95beb36b386" >}},
 
 would you use in order for the UO traffic assignment package to give you the solution to the SO traffic assignment problem.
 
@@ -143,11 +143,11 @@ would you use in order for the UO traffic assignment package to give you the sol
 Question 4 (25 points)
 ----------------------
 
-Consider a queuing system with 1 server and infinite capacity. Customers arrive with exponentially distributed inter-arrival times at an average rate of ![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image021.jpg) customers per hour. Let k be a given real-number greater than or equal to 1. The service time is exponentially distributed with an average service rate depending on the number of customers in the system. When there are _n_ customers in the system, the service rate is
+Consider a queuing system with 1 server and infinite capacity. Customers arrive with exponentially distributed inter-arrival times at an average rate of {{< resource "27d54eba-8dde-7329-264d-fc41917468d3" >}} customers per hour. Let k be a given real-number greater than or equal to 1. The service time is exponentially distributed with an average service rate depending on the number of customers in the system. When there are _n_ customers in the system, the service rate is
 
-![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image023.jpg)
+{{< resource "35aac9aa-ca44-3072-7357-017fd7683a0a" >}}
 
-vehicles per hour. Denote by ρ the ratio ![](/courses/civil-and-environmental-engineering/1-225j-transportation-flow-systems-fall-2002/exams/image025.jpg).
+vehicles per hour. Denote by ρ the ratio {{< resource "96d16dbd-1fc9-0d76-a821-15b2c96c83db" >}}.
 
 4.1 (2 points) Show that the service rate is in the interval \[m, km\] for all values of n.
 
